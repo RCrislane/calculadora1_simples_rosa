@@ -64,7 +64,7 @@ def calcular():
     resultado = eval(todos_valores)
     
     valor_texto.set(str(resultado))
-
+    todos_valores = (str(resultado))
 
 # limpar a tela C
 def limpar_tela():
